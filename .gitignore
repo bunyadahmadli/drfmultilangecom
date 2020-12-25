@@ -1,0 +1,14 @@
+.venv/*
+venv/*
+db.sqlite3
+db.*
+migrations
+migrations/*
+
+.venv/
+.vscode/
+postgresdb/
+*.pyc
+__pycache__/
+db.sqlite3
+media/
