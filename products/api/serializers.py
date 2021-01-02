@@ -8,4 +8,4 @@ class ProductSerializer(TranslatedSerializerMixin,TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=Products)
     class Meta:
         model = Products
-        fields = ('translations', 'author', 'created_on', 'updated_on')
+        fields = ('translations' ,'author', 'created_on', 'updated_on')

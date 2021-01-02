@@ -114,8 +114,8 @@ PARLER_LANGUAGES = {
         {'code': 'en',},
     ),
     'default': {
-        'fallbacks': ['tr'],      
-        'hide_untranslated': False,   # Default
+        'fallbacks': ['en'],      
+        'hide_untranslated': True,   # Default
     }
 }
 
